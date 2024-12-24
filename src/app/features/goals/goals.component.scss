@@ -1,0 +1,26 @@
+/* src/app/features/goals/goals.component.scss */
+.goals-container {
+    padding: 20px;
+  
+    .goal-card {
+      margin-bottom: 15px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  
+      h3 {
+        margin-top: 0;
+      }
+  
+      button {
+        margin-right: 10px;
+      }
+    }
+  
+    button {
+      background-color: #007bff;
+      color: white;
+    }
+  }
+  

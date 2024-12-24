@@ -1,59 +1,22 @@
-# GoalTrackingApp
+# Goal Tracking App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+## Overview
 
-## Development server
+A remote-friendly Angular application for tracking goals, milestones, and comments. Built using Angular 19, NgRx for state management, and PrimeNG for UI components.
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
+- **Goals**: Create, read, update, and delete goals.
+- **Milestones**: Manage milestones for each goal.
+- **Comments**: Add comments to milestones.
+- **State Management**: Utilizes NgRx for robust state handling.
+- **Responsive Design**: Ensures usability across devices.
+- **Mock Backend**: Powered by `json-server` for API simulation.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Setup Instructions
 
-## Code scaffolding
+1. **Clone the Repository**
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   git clone https://github.com/<your-username>/goal-tracking-app.git
+   cd goal-tracking-app
