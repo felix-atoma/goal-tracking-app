@@ -1,0 +1,19 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "Learn Angular",
+      "description": "Master Angular framework in 3 months",
+      "milestones": [
+        {
+          "id": 1,
+          "name": "Understand Components",
+          "comments": [
+            { "id": 1, "text": "Focus on lifecycle methods" },
+            { "id": 2, "text": "Practice creating reusable components" }
+          ]
+        }
+      ]
+    }
+  ]
+}

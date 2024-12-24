@@ -1,0 +1,18 @@
+<!-- src/app/features/goals/goals.component.html -->
+<div class="goals-container">
+    <h2>Goals</h2>
+    <button (click)="createGoal({ id: Date.now(), title: 'New Goal', description: 'Description', milestones: [] })">
+      Add Goal
+    </button>
+  
+    <div *ngIf="loading$ | async">Loading...</div>
+    <div *ngIf="error$ | async as error">Error: {{ error }}</div>
+  
+    <div *ngFor="let goal of goals$ | async" class="goal-card">
+      <h3>{{ goal.title }}</h3>
+      <p>{{ goal.description }}</p>
+      <button (click)="editGoal({ ...goal, title: 'Updated Goal' })">Edit</button>
+      <button (click)="deleteGoal(goal.id)">Delete</button>
+    </div>
+  </div>
+  
